@@ -101,7 +101,7 @@ namespace EncryptionKeySifter
                         }
                         else if (sst.StartsWith("Encrypted ZMK"))
                         {
-                            if (count != 5) //You party pooper. Your father! Try this on for size!!!
+                            if (count != 5) //You party pooper. Try this on for size!!!
                                 count = 5;
                             sw.WriteLine(processString(sst));
                         }
